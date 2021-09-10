@@ -26,7 +26,6 @@ export default function useFind(): UseFindProps {
         return history.push('/');
       }
       const meuArrayInvertido = meuArray.slice(0).reverse();
-      console.log(meuArrayInvertido);
       await setPackDates(meuArrayInvertido);
       setHave(true);
       history.push('/result');
