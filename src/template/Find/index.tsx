@@ -114,9 +114,9 @@ export function FindYour(): JSX.Element {
             <About>
               <HowWork>Como Funciona?</HowWork>
               <How>
-                Somos uma plataforma empenhada em levar o melhor serviço para você, cliente. Para rastrear sua encomenda
-                é bem fácil, bastar ter o seu código de rastreio em mãos, esperamos ter facilitado! ... Codigo para
-                Teste : LE314514661SE
+                Este aplicativo é para você que se preocupa com o trajeto do seu produto e quer estar sempre informado
+                sobre sua jornada. Para rastrear sua encomenda é bem fácil, digite o código de rastreio no local
+                indicado acima e pronto! ...Código para Teste: LE314514661SE
               </How>
             </About>
           </SecondDiv>
