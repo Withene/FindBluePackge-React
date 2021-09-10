@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdfBQB"
+  >
+    <div
+      class="sc-gsTEea ecLGlf"
+    >
+      <img
+        alt="Imagem do Footer"
+        class="sc-dlfnuX kcFAkD"
+        src="test.svg"
+      />
+    </div>
+  </div>
+</div>
+`;

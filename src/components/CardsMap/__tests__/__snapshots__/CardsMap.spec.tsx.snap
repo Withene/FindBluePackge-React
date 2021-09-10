@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardsMap /> should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdfBQB rxjHx"
+  >
+    <div
+      class="sc-gsTEea gAnMMC"
+    >
+      <h1
+        class="sc-dlfnuX csyxjh"
+      >
+        Objeto em trânsito - por favor aguarde
+      </h1>
+      <h2
+        class="sc-hKgJUU kQwUZX"
+      >
+        Destino: 
+        Unidade de Tratamento - Brasilia-DF
+         
+      </h2>
+      <div
+        class="sc-gKseQn kDbISL"
+      >
+        <h2
+          class="sc-eCstlR iVIYXC"
+        >
+          Origem: 
+          Test
+        </h2>
+        <h2
+          class="sc-jSgvzq gejCwp"
+        >
+          Horario: 
+          11:00
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;
