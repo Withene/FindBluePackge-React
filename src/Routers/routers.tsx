@@ -1,10 +1,10 @@
 import { Switch, Route, RouteProps } from 'react-router-dom';
 import { useHistory } from 'react-router';
-import { FindYour } from './template/Find';
-import { GlobalContext } from './contexts/AuthContex';
+import { FindYour } from '../template/Find';
+import { GlobalContext } from '../contexts/AuthContex';
 import { useContext } from 'react';
-import { ResultFind } from './template/Result';
-import { Page404 } from './template/404';
+import { ResultFind } from '../template/Result';
+import { Page404 } from '../template/404';
 export interface tes extends RouteProps {
   isPrivate?: boolean;
 }

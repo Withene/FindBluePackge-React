@@ -4,7 +4,7 @@ import Global from './globalStyled/Global';
 import { AuthContext } from './contexts/AuthContex';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import { Routers } from './routers';
+import { Routers } from './Routers/routers';
 
 ReactDOM.render(
   <React.StrictMode>
