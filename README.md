@@ -10,5 +10,4 @@ Deploy realizado Pela Netlify.
 
 ## Lista de Testes feitos: ![Screenshot_18](https://user-images.githubusercontent.com/82597491/132922345-381b8042-00ec-4fee-9d71-8432928ec198.png)
 
-
-
+### Tecnlogias utilizadas
