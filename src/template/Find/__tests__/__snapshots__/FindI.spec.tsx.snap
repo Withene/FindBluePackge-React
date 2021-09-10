@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FindYouPackger should match snapshot 1`] = `
+<div>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="sc-eCstlR cTHrCn"
+  >
+    <header
+      class="sc-gKseQn hixIwp"
+    >
+      <img
+        alt="Logo FindBluePackge"
+        src="BlueState.svg"
+      />
+    </header>
+    <div
+      class="sc-jSgvzq htCFoI"
+    >
+      <div
+        class="sc-kstqJO lgjvxe"
+      >
+        <img
+          class="sc-dQoVA kQabUh"
+          src="FindPack.svg"
+        />
+      </div>
+      <div
+        class="sc-crrszt iKajer"
+      >
+        <div
+          class="sc-iBPTik fHSTiF"
+        >
+          <h1
+            class="sc-fubCzh etQyft"
+          >
+            Rastreie o seu Pacote
+          </h1>
+          <p
+            class="sc-pGacB iiimMK"
+          >
+            De uma forma fácil e rápida
+          </p>
+        </div>
+        <form
+          class="sc-fodVek"
+        >
+          <div
+            class="sc-dlfnuX fAwZzX"
+          >
+            <label
+              class="sc-gsTEea QIuXs"
+            />
+            <input
+              class="sc-bdfBQB ehPXqP"
+              id="find"
+              name="find"
+              placeholder="Codigo de Rastreio"
+              type="text"
+              value=""
+            />
+          </div>
+          <button
+            class="sc-hKgJUU cCDriS"
+            type="submit"
+          >
+            Rastrear
+          </button>
+        </form>
+        <div
+          class="sc-kEjbQP ljTyHN"
+        >
+          <h1
+            class="sc-jrAFXE dFghHV"
+          >
+            Como Funciona?
+          </h1>
+          <p
+            class="sc-iqHYmW eAiBvu"
+          >
+            LE314514661SEsit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor ectus magna fringilla urnectus magna fLorem ipsum dolor sit amet
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-fFucqa"
+  >
+    <div
+      class="sc-bkzYnD bnhoZe"
+    >
+      <img
+        alt="Imagem do Footer"
+        class="sc-idOiZg idqzgw"
+        src="test.svg"
+      />
+    </div>
+  </div>
+</div>
+`;

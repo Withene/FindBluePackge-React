@@ -63,7 +63,6 @@ export function ResultFind(): JSX.Element {
                 Text={'Voltar'}
                 MBottom={true}
                 Center={true}
-                ColorBorder={'rgb(42, 165, 21)'}
                 eventClick={HandleReturnResult}
                 disabled={noReturnPost}
               />

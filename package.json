@@ -38,13 +38,7 @@
       "react-app/jest"
     ]
   },
-  "jest": {
-    "coveragePathIgnorePatterns": [
-      "src/index.tsx",
-      "src/routers.tsx",
-      "src/globalStyled"
-    ]
-  },
+
   "browserslist": {
     "production": [
       ">0.2%",

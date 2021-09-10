@@ -1,6 +1,6 @@
-import { Inside, Container, FirtsTitle, SecondTitle, ThereTitle, Timer, FlexItem } from './styled';
+import { Inside, Container, FirtsTitle, SecondTitle, ThereTitle, Timers, Timer, FlexItem, Data } from './styled';
 import { CardProps } from './types';
-export function Card({ FirtsTitleProp, OrigemProp, DestinoProp, Time, LocalProp }: CardProps): JSX.Element {
+export function Card({ FirtsTitleProp, OrigemProp, DestinoProp, Time, LocalProp, data }: CardProps): JSX.Element {
   return (
     <>
       <Container>
@@ -12,14 +12,11 @@ export function Card({ FirtsTitleProp, OrigemProp, DestinoProp, Time, LocalProp 
             <SecondTitle>Local: {LocalProp} </SecondTitle>
           )}
           <FlexItem>
-            {OrigemProp ? (
-              <>
-                <ThereTitle>Origem: {OrigemProp}</ThereTitle>
-                <Timer>Horario: {Time}</Timer>
-              </>
-            ) : (
+            {OrigemProp && <ThereTitle>Origem: {OrigemProp}</ThereTitle>}
+            <Timers>
+              <Data> Data: {data} </Data>
               <Timer>Horario: {Time}</Timer>
-            )}
+            </Timers>
           </FlexItem>
         </Inside>
       </Container>

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FindYouPackger should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdfBQB dyHRYR"
+  >
+    <header
+      class="sc-gsTEea fgNrYl"
+    >
+      <img
+        alt="Logo FindBluePackge"
+        src="BlueState.svg"
+      />
+    </header>
+    <div
+      class="sc-eCstlR hqxUkG"
+    >
+      <div
+        class="sc-jSgvzq lJyuW"
+      >
+         
+        <img
+          alt="PageNoutFound"
+          src="404Page.svg"
+        />
+        <h1
+          class="sc-dlfnuX bsNShh"
+        >
+          Ops.. Oque Você está fazendo aqui ?
+        </h1>
+        <a
+          class="sc-hKgJUU gjcdeK"
+          href="/"
+        >
+          Retornar a Home
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-gKseQn"
+  >
+    <div
+      class="sc-iBPTik jivZgG"
+      height="15"
+    >
+      <img
+        alt="Imagem do Footer"
+        class="sc-fubCzh iTtKTe"
+        src="test.svg"
+      />
+    </div>
+  </div>
+</div>
+`;

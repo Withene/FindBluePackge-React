@@ -114,8 +114,9 @@ export function FindYour(): JSX.Element {
             <About>
               <HowWork>Como Funciona?</HowWork>
               <How>
-                LE314514661SEsit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus
-                magna fringilla urna, porttitor ectus magna fringilla urnectus magna fLorem ipsum dolor sit amet
+                Somos uma plataforma empenhada em levar o melhor serviço para você, cliente. Para rastrear sua encomenda
+                é bem fácil, bastar ter o seu código de rastreio em mãos, esperamos ter facilitado! ... Codigo para
+                Teste : LE314514661SE
               </How>
             </About>
           </SecondDiv>

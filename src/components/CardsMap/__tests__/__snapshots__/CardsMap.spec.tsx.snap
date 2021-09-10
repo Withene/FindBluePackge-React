@@ -21,7 +21,7 @@ exports[`<CardsMap /> should match snapshot 1`] = `
          
       </h2>
       <div
-        class="sc-gKseQn kDbISL"
+        class="sc-iBPTik bEHCeY"
       >
         <h2
           class="sc-eCstlR iVIYXC"
@@ -29,12 +29,23 @@ exports[`<CardsMap /> should match snapshot 1`] = `
           Origem: 
           Test
         </h2>
-        <h2
-          class="sc-jSgvzq gejCwp"
+        <div
+          class="sc-fubCzh ecwzLb"
         >
-          Horario: 
-          11:00
-        </h2>
+          <h2
+            class="sc-gKseQn AmEEP"
+          >
+             Data: 
+            17/08/2021
+             
+          </h2>
+          <h2
+            class="sc-jSgvzq gejCwp"
+          >
+            Horario: 
+            11:00
+          </h2>
+        </div>
       </div>
     </div>
   </div>

@@ -56,12 +56,30 @@ export const Timer = styled.h2`
     margin-top: 10px;
   }
 `;
+export const Data = styled.h2`
+  /* font-weight: 400; */
+  font-weight: normal;
+  margin-top: 5px;
+  font-size: clamp(15px, 3vw, 19px);
+  color: #0077b6;
+  @media (max-width: 30rem) {
+    margin-top: 10px;
+  }
+`;
 export const FlexItem = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   margin-top: 10px;
+`;
+export const Timers = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
   @media (max-width: 30rem) {
-    flex-direction: column;
+    flex-direction: row;
   }
 `;

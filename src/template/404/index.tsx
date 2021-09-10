@@ -3,7 +3,7 @@ import Logo from '../../assets/BlueState.svg';
 import NotFound from '../../assets/404Page.svg';
 import { Footer } from '../../components/Footer';
 
-export const Page404 = (): JSX.Element => {
+export function Page404(): JSX.Element {
   return (
     <>
       <Wrapper>
@@ -13,7 +13,7 @@ export const Page404 = (): JSX.Element => {
         <Divz>
           <FlexItem>
             {' '}
-            <img src={NotFound} alt="Logo FindBluePackge" />
+            <img src={NotFound} alt="PageNoutFound" />
             <TitleFirts>Ops.. Oque Você está fazendo aqui ?</TitleFirts>
             <SecondTitle to={'/'}>Retornar a Home</SecondTitle>
           </FlexItem>
@@ -22,4 +22,4 @@ export const Page404 = (): JSX.Element => {
       <Footer height={'15'}></Footer>
     </>
   );
-};
+}

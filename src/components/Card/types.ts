@@ -4,4 +4,5 @@ export type CardProps = {
   DestinoProp?: string;
   Time: string;
   LocalProp?: string;
+  data: string;
 };

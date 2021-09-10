@@ -1,10 +1,9 @@
-import { render, screen, fireEvent, waitFor, waitForElementToBeRemoved } from '@testing-library/react';
+import { render, screen, waitFor, waitForElementToBeRemoved } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { FindYour } from '../index';
 
 import '@testing-library/jest-dom';
 import { act } from 'react-dom/test-utils';
-import axios from 'axios';
 
 describe('FindYouPackger', () => {
   it('Should able to Render Find', async () => {
@@ -23,7 +22,6 @@ describe('FindYouPackger', () => {
       const svg = screen.getByAltText('Carregando');
       await waitForElementToBeRemoved(svg);
     });
-    screen.debug();
   });
 
   it('Should not able to Get packge with invalid code', async () => {
@@ -58,5 +56,9 @@ describe('FindYouPackger', () => {
       const svg = screen.getByAltText('Carregando');
       await waitForElementToBeRemoved(svg);
     });
+  });
+  it('should match snapshot', () => {
+    const { container } = render(<FindYour />);
+    expect(container).toMatchSnapshot();
   });
 });

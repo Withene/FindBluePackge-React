@@ -18,7 +18,7 @@ export default function usePaginate(): PaginetedProps {
 
   const [ActualDate, setActualDate] = useState<number>(0);
 
-  const [postPerPage] = useState<number>(2);
+  const [postPerPage] = useState<number>(3);
 
   const noMorePosts = ActualDate + postPerPage >= PackDates.length;
   const noReturnPost = ActualDate ? ActualDate <= 0 : ActualDate >= 0;

@@ -7,6 +7,7 @@ export type CardsMapProp = {
   origem: string;
   destino: string;
   local: string;
+  data: string;
 };
 
 export function CardsMap({ Result }: any): JSX.Element {
@@ -19,6 +20,7 @@ export function CardsMap({ Result }: any): JSX.Element {
         DestinoProp={a.destino}
         Time={a.hora}
         LocalProp={a.local}
+        data={a.data}
       />
     );
   });
