@@ -12,3 +12,4 @@ Deploy realizado Pela Netlify.
 
 ### Tecnlogias utilizadas
 React, Node.js, Mongoose
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d08b9b12-33b3-469c-b386-72d7a88f739b/deploy-status)](https://app.netlify.com/sites/findbluepackge/deploys)
