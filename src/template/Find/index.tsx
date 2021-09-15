@@ -73,7 +73,7 @@ export function FindYour(): JSX.Element {
                 if (!values.find) {
                   errors.find = 'Campo Necessario';
                 }
-                if (!/^[A-Z]{2}[1-9]{9}[A-Z]{2}$/.test(values.find)) {
+                if (!/^[A-Z]{2}[0-9]{9}[A-Z]{2}$/.test(values.find)) {
                   errors.find = 'Insira um Codigo valido';
                 }
                 return errors;
