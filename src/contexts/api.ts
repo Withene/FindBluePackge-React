@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://witheneapi.herokuapp.com',
+  baseURL: 'https://http://18.228.5.83:8000',
 });
 
 export default api;
