@@ -2,7 +2,7 @@
 Esse Projeto está utilizando uma api desenvolvida por mim link para o repositorio: [Api-Node](https://github.com/Withene/FindBluePackge-React)
 
 ### Projeto Desenvolvido para Estudo.
-## Link do [Deploy](https://firstbluepackge.netlify.app)
+## Link do [Deploy](https://findbluepackge.netlify.app/)
 Deploy realizado Pela Netlify.
 
 [![Screenshot_17](https://user-images.githubusercontent.com/82597491/132923165-d678a92a-44af-498f-94f3-08da97d72fe5.png)](https://firstbluepackge.netlify.app)
